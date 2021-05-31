@@ -2,6 +2,15 @@
 ; ld -o mov_tst -e main mov_tst.o
 ; ./mov_tst
 
+; rax, rbx, rcx, rdx, rsp, rbp, rsi, rdi, r8, r9, r10, r11, r12, r13, r14 et r15
+; rax->eax->ax->ah/al
+; rsi->esi->si->sil
+; r8->r8d->r8w->r8b
+
+; and 0->0
+; or 1->1
+; xor 1->not
+
 ; rdi, rsi, rdx, rcx, r8, r9
 
 ; Open
